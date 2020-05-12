@@ -1,5 +1,5 @@
 let friendList= ["Dash", "Dan", "Chase", "Ben", "Alex"];
-for (let index = 0; index < friendList.length; index++) {
+for (let i = 0; i < friendList.length; i++) {
     for (let n = 99; n > 0; n--) {
         if (n >= 2) {
             console.log(`${n} lines of code in the file, ${n} lines of code; ${friendList[index]} strikes one out, clears it all out, ${n - 1} lines of code in the file`);   
